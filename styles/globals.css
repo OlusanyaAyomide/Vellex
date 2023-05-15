@@ -1,27 +1,22 @@
 @tailwind base;
 @tailwind components;
-@tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  @apply font-gothic text-velt-black
+}
+.cont{
+  @apply px-3 xs:px-6 sm:px-8 md:px-10 lg:px-12 xl:px-16
+}
+.remove-cont{
+  @apply -mx-3 xs:-mx-6 sm:-mx-8 md:-mx-10 lg:-mx-12 xl:-mx-16
+}
+.toggler{
+  
+  @apply bg-white h-[4px] w-full inline-block
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.section-header{
+  @apply font-bold text-2xl sm:leading-[52px] sm:text-[34px] md:text-[36px] xl:text-[38px]
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
+@tailwind utilities;
