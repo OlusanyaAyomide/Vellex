@@ -2,11 +2,11 @@ import { ResourceExporter } from "@/public/exporter"
 
 export const navLinks=[
     {
-        link:"",
+        link:"/",
         text:"Home"
     },
     {
-        link:"",
+        link:"/about",
         text:"About"
     },
     {
@@ -117,7 +117,7 @@ export const FooterLinks=[
         links:[
             {
                 name:"About",
-                link:""
+                link:"/about"
             },
             {
                 name:"Our Services",
@@ -146,4 +146,33 @@ export const FooterLinks=[
             },
         ]
     },
+]
+
+
+export const AboutText = "We value our craft, have a deep passion for progression, and exist to solve challenges for brands we believe in"
+
+export const TeamText = "We are guided by due diligence and attention to detail and it is important that we maintain this approach to sustain our growth and strengthen our resource capacity for efficiency."
+
+
+export const TeamArray =[
+   {
+    name:"Francis Masade, Managing Director",
+    text:"An adept financial advisor with years of experience across various sectors, with in-depth knowledge on financial reporting, treasury management, fin-tech, gaming and casino. Jonathan worked in Capricorn Digital as a financial analyst where he worked on Capricorn-CBN/SANEF project and Stamp duty insight. He has worked extensively in the Nigeria financial industry providing tax and audit compliance as well as advisory services.",
+    image:ResourceExporter.francis
+   },
+   {
+    name:"Olajumoke Odudimu, Legal/Company Secretary",
+    text:"Olajumoke is a self-motivated lawyer with over 8 years of legal experience. She has litigated on an extensive range of issues and has experience in the gaming industry. She amassed gaming experience while working as a Legal Counsel in a Nigeria consulting firm where she advised gaming brands particularly the leading betting company in Nigeria on their modus operandi.",
+    image:ResourceExporter.olajumoke
+   },
+   {
+    name:"Jonathan Nwanze, Finance Manager",
+    text:"An adept financial advisor with years of experience across various sectors, with in-depth knowledge on financial reporting, treasury management, fin-tech, gaming and casino. Jonathan worked in Capricorn Digital as a financial analyst where he worked on Capricorn-CBN/SANEF project and Stamp duty insight. He has worked extensively in the Nigeria financial industry providing tax and audit compliance as well as advisory services.",
+    image:ResourceExporter.jonathan
+   },
+   {
+    name:"Adenike Oyebamiji, Legal Counsel West Africa",
+    text:"Adenike is a versatile, passionate and experienced lawyer called to the Nigerian bar in 2015. She amassed gaming experience while working as a Legal Counsel in Lagos State Lotteries Board with focus on Company Secretariat, Regulatory Compliance, Corporate and Contract Law, Legal Drafting, Dispute Resolution amongst others.",
+    image:ResourceExporter.adenike
+   },
 ]
