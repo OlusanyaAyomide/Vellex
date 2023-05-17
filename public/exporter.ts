@@ -16,7 +16,8 @@ import Two2bt from "./22betimg1.jpg";
 import BetWinner from "./betwinnerimg1.jpg";
 import Paripesa from "./pari1.jpg";
 import helaBet from "./hela1.jpg";
-import captains from "./capp.jpg"
+import captains from "./capp.jpg";
+
 
 export const ResourceExporter ={
     HeroBg,Logo,LogoB,bank,contract,license,registration,software,staff,testing,Wall,Interwicth,Paystack,flutterwave,Two2bt,BetWinner,Paripesa,helaBet,captains

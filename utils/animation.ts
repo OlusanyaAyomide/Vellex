@@ -53,3 +53,29 @@ export const toggleCenter = () => {
     };
   };
 
+export const HeroContainer = {
+  initial:{
+    opacity:0
+  },
+  animate:{
+    opacity:1,
+    transition:{
+      when:"beforeChildren",
+      staggerChildren:0.3
+    }
+  }
+}
+
+export const HeroItems={
+  initial:{
+    opacity:0,
+    y:50
+  },
+  animate:{
+    opacity:1,
+    y:0,
+    transition:{
+      duration:0.3
+    }
+  }
+}

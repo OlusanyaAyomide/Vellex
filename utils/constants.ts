@@ -33,7 +33,13 @@ export const veltHostory ="Velex Nigeria has evolved as the leading Gaming Compl
 export const TopHistory = "Through our accelerator service, we have set up and transferred to clients, 7 business operations in Nigeria, Ghana, Senegal, Cameroon, Gambia, Sierra Leone and Benin Republic. We intend to activate our growth plan to establish Velex presence in the entire West African sub-region."
 
 export const BottomHistory = "Our compliance Portfolio continues to provide critical services in corporate governance, financial and tax compliance, Legal compliance and advisory, license renewal, agreement and contracts, partnership and endorsements. We have progressed as a critical stakeholder in the gaming sector in West Africa."
+export const TopText2 = "Our success is driven by clear vision and good strategy"
 
+export const Herotext2="Our compliance Portfolio continues to provide critical services in corporate governance, financial and tax compliance, Legal compliance and advisory, license renewal"
+
+export const HeroText3 ="Our compliance Portfolio continues to provide critical services in corporate governance, financial and tax compliance, Legal compliance and advisory, license renewal,"
+
+export const TopText3 = "Gaining Advisory in Nigeria And West Africa"
 
 export const ProductConstants =[
     {
