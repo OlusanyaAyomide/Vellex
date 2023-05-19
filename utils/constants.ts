@@ -176,3 +176,29 @@ export const TeamArray =[
     image:ResourceExporter.adenike
    },
 ]
+
+
+export const ServiceHeroText = "Our success is driven by clear vision, strategy and a dedicated staff."
+
+export const ServiceHeroContent = "Our vision and goal is to become the largest Advisory Firm in Gaming, Disruptive Technology and Payments solutions in West Africa."
+
+
+export const AccelerateTExt1 = "Velex Nigeria has evolved as the leading Gaming Compliance Advisory Firm in Nigeria and West Africa sub-region."
+
+export const AcceleatorText2 = "Velex Nigeria has facilitated market entry for twelve international gaming brands."
+
+export const AcceleatorText3 = "Through our accelerator service, we have set up and transferred to clients, 7 business operations accross West Africa."
+
+
+export const CapaBilityText = [
+    "Business incorporation","Bank accounts opening","Contract vetting and execution","Obtaining gaming Licenses","Software solutions integration","Platform testing","Staff recruitment"
+]
+
+export const ComplianceText=[
+    "Corporate governance","Legal compliance and Advisory","Financial & Tax Compliance","Tax compliance","Tax compliance","Human Resources","License renewal"
+]
+
+export const ComplianceText1 ="Our compliance Portfolio continues to provide critical services in corporate governance, financial and tax compliance, Legal compliance and advisory, license renewal, agreement and contracts, partnership and endorsements."
+
+
+export const ComplianceText2 = "Our robust knowledge and engagement with critical stakeholders in the gaming industry and wide network has positioned Velex as a key partner in the development of policy framework that continued to strengthen the gaming sector in West Africa."

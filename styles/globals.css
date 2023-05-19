@@ -19,6 +19,6 @@
   @apply font-bold text-2xl sm:leading-[52px] sm:text-[34px] md:text-[36px] xl:text-[38px]
 }
 .massive-text{
-  @apply font-extrabold sm:text-[64px] md:text-[66px] lg:text-[69px] sm:leading-[70px] text-4xl md:text-6xl xl:text-[74px]
+  @apply font-extrabold sm:text-[50px] md:text-[54px] lg:text-[69px] sm:leading-[70px] text-4xl xl:text-[74px]
 }
 @tailwind utilities;
