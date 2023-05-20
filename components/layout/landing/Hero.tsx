@@ -49,7 +49,7 @@ export default function Hero() {
         <div className='absolute z-30 inset-0 w-full h-full bg-black/60'></div>
         <div className='absolute inset-0 w-full h-full'>
             <div className='h-full w-full relative z-20'>
-             <video src="/heroVideo.mp4" loop muted className='h-full w-full object-cover' autoPlay poster=".fallback.png"></video>
+             <video src="/heroVideo.mp4" loop muted className='h-full w-full object-cover' autoPlay poster="/fallback.png"></video>
           </div>
         </div>
 

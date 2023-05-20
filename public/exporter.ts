@@ -21,7 +21,8 @@ import captains from "./capp.jpg";
 import adenike from "./adenike.jpg";
 import francis from "./Francis.jpg";
 import jonathan from "./jonathan.jpg";
-import olajumoke from "./olajumoke.jpg" 
+import olajumoke from "./olajumoke.jpg";
+import Cap from "./cap.jpg";
 export const ResourceExporter ={
-    HeroBg,Logo,LogoB,bank,contract,license,registration,software,staff,testing,Wall,Interwicth,Paystack,flutterwave,Two2bt,BetWinner,Paripesa,helaBet,captains,fallBack,adenike,francis,jonathan,olajumoke
+    HeroBg,Logo,LogoB,bank,contract,license,registration,software,staff,testing,Wall,Interwicth,Paystack,flutterwave,Two2bt,BetWinner,Paripesa,helaBet,captains,fallBack,adenike,francis,jonathan,olajumoke,Cap
 }

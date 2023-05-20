@@ -21,7 +21,9 @@ module.exports = {
         "velt-black":"#565E6CFF",
         "velt-pink":"#8255FA",
         "velt-offwhite":"#F0F3F2",
-        "velt-blue":"#062B74"
+        "velt-blue":"#062B74",
+        "velt-light":"#A1A1A1",
+        "velt-dark":"#363B3A"
       },
       fontFamily:{
         inter:["Inter"],

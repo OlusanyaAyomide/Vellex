@@ -10,7 +10,7 @@ export const navLinks=[
         text:"About"
     },
     {
-        link:"",
+        link:"/services",
         text:"Our Services"
     },
     {
@@ -202,3 +202,12 @@ export const ComplianceText1 ="Our compliance Portfolio continues to provide cri
 
 
 export const ComplianceText2 = "Our robust knowledge and engagement with critical stakeholders in the gaming industry and wide network has positioned Velex as a key partner in the development of policy framework that continued to strengthen the gaming sector in West Africa."
+
+export const InvestText1 = "There are many Investment administrators and managers looking for viable gaming brands and disruptive technologies to invest in but have limited knowledge of the African gaming and technology markets"
+
+export const investText2 = "Velex Advisory has a vantage point in the gaming and disruptive technology space. Velex facilitates merger and acquisition and provide due diligence on the following:"
+
+export const investItems=[
+    'Market overview',"Product Valuations","storical financial data","Intelligence based projections","Compile tangible assets","Prepare balance sheet to fully appreciate companies current financial commitment to date","Provide information around the respective key operations teams and their professional qualifications"
+]
+
