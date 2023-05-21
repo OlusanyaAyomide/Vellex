@@ -14,6 +14,10 @@ export const navLinks=[
         text:"Our Services"
     },
     {
+        link:"/innovation",
+        text:"Innovation"
+    },
+    {
         link:"",
         text:"Capital"
     },
@@ -211,3 +215,27 @@ export const investItems=[
     'Market overview',"Product Valuations","storical financial data","Intelligence based projections","Compile tangible assets","Prepare balance sheet to fully appreciate companies current financial commitment to date","Provide information around the respective key operations teams and their professional qualifications"
 ]
 
+export const InnovationText01 = "Our goal is to give our clients their desired results in as little time as possible. This can prove to be challenging as several factors can slow down this process."
+
+
+export const InnovationText02 = "That's where Velex Innovation comes in. Creating products that aggregates all our service into a single middleware platform, our clients can plug-in directly for a seamless integration with service providers."
+
+export const InnovotationItems=[
+    {
+        title:"Speedy Integrations",
+        content:"Providing data useful to all branches of operation. From marketing to accounting."
+    },
+    {
+        title:"Accesibility",
+        content:"Providing data useful to all branches of operation. From marketing to accounting."  
+    },
+    {
+        title:"Staying Updated",
+        content:"Velex Innovation will be on the lookout of trends and changes in the industry and implementing accordingly in favour of our clients."
+    },
+    {
+        title:"Custom Solutions",
+        content:"In cases where there isn't a solution readily available for a client’s needs, the team is responsible for producing a working solution"
+    }
+ 
+]

@@ -23,6 +23,7 @@ import francis from "./Francis.jpg";
 import jonathan from "./jonathan.jpg";
 import olajumoke from "./olajumoke.jpg";
 import Cap from "./cap.jpg";
+import Inno from "./inno.jpg"
 export const ResourceExporter ={
-    HeroBg,Logo,LogoB,bank,contract,license,registration,software,staff,testing,Wall,Interwicth,Paystack,flutterwave,Two2bt,BetWinner,Paripesa,helaBet,captains,fallBack,adenike,francis,jonathan,olajumoke,Cap
+    HeroBg,Logo,LogoB,bank,contract,license,registration,software,staff,testing,Wall,Interwicth,Paystack,flutterwave,Two2bt,BetWinner,Paripesa,helaBet,captains,fallBack,adenike,francis,jonathan,olajumoke,Cap,Inno
 }

@@ -6,7 +6,7 @@ import { InvestText1, investItems, investText2 } from '@/utils/constants'
 export default function CapitalInvestment() {
   return (
     <div className='-mt-2 bg-white py-16 flex flex-wrap lg:flex-nowrap cont'>
-      <div className='mb-12 lg:mb-0 flex justify  w-full lg:w-fit'>
+      <div className='mb-12 lg:mb-0   w-full lg:w-fit'>
         <div className='rounded-[6px] overflow-hidden mx-auto lg:mx-0 max-w-[450px] md:w-[400px] lg:ml-4 lg:mr-4 h-[250px]'>
           <VelImage src={ResourceExporter.Cap}/>
         </div>

@@ -4,7 +4,7 @@ export default function ServiceForm() {
   return (
     <div className='cont bg-velt-dark py-16'>
         <h1 className="section-header text-center mb-4 text-white">Get In Touch</h1>
-        <form className='py-8 rounded-lg max-w-[500px] px-4 sm:px-6 shadow-lg shadow-white/30 mx-auto'>
+        <form className='py-8 rounded-lg max-w-[500px] px-4 sm:px-6 shadow-sm shadow-velt-pink/20  mx-auto'>
             <div className='mb-4'>
               <label htmlFor="name" className="text-white font-semibold block mb-1">First Name</label>
               <input type="text" placeholder='First Name' className='block w-full outline-none rounded-[6px] focus:border focus:border-velt-pink py-2 px-2'/>
