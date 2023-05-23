@@ -18,12 +18,16 @@ export const navLinks=[
         text:"Innovation"
     },
     {
-        link:"",
+        link:"/capital",
         text:"Capital"
     },
     {
         link:"",
         text:"Contact"
+    },
+    {
+        link:"/training",
+        text:"Trainings Offered"
     },
 
 ]
@@ -239,3 +243,15 @@ export const InnovotationItems=[
     }
  
 ]
+
+export const Trainings={
+    herotext:"ANTI-MONEY LAUNDERING/COMBATING FINANCING OF TERRORISM TRAINING",
+    text10:"Section 9 (2) (i) and Section 9 (6) of the Economic and Financial Crimes Commission( Anti-Money Laundering, Combating the Financing of Terrorism and Countering Proliferation Financing of Weapons of Mass Destruction for Designated Non-Financial Businesses and Professions, And Other Related Matters) Regulation 2022 mandates Designated Non- Financial Businesses and Professions (DNFBPs) to design comprehensive training programs for board members, management and staff to establish full awareness of their obligations and also equip them with relevant skills required for the effect discharge of their Anti Money Laundering, Combating Financing Terrorism and Countering Proliferation Financing obligations.",
+    text11:"The Act further mandates DNFBPs to conduct periodic training and make available copy of training programs and certificates to the Special Control Unit against Money Laundering not later than 31 st March of the year.",
+    text20:"The Act further mandates DNFBPs to conduct periodic training and make available copy of training programs and certificates to the Special Control Unit against Money Laundering not later than 31 st March of the year.",
+    text21:"Anti-Money Laundering/Combating Financing Terrorism Compliance Program - Introduction, Customer Due Diligence, Risk Based Approach, Identifying Red Flags (Customers, Agents and Employees), Key stakeholders obligation & Respective roles - General Awareness etc.",
+    text22:"Advanced Training - Anti Money Laundering and Combating the Financing of Terrorism for Online Gaming Multi - Jurisdiction",
+    mockImg:[
+        ResourceExporter.Inno,ResourceExporter.Cap,ResourceExporter.Inno,ResourceExporter.Cap
+    ]
+}
