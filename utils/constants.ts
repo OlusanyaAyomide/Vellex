@@ -22,7 +22,7 @@ export const navLinks=[
         text:"Capital"
     },
     {
-        link:"",
+        link:"/contact",
         text:"Contact"
     },
     {

@@ -23,7 +23,7 @@ export default function Header() {
       <div className='ml-6 lg:ml-16 md:flex w-full justify-between hidden max-w-[700px] '>
         {navLinks.map((item,key)=>{
           return(
-            <Link key={key} href={item.link}><span className={`underscore hover:before:w-[70%] hover:before:bg-white before:transition-all before:duration-300  relative ${router.asPath ===item.link?"before:w-[70%]":"before:w-0"} before:w-[70%] before:bg-velt-pink before:-bottom-1 before:absolute before:h-[2px] text-white font-semibold text-sm lg:text-base before:left-[15%] before:rounded-lg`}>{item.text}</span></Link>
+            <Link key={key} href={item.link}><span className={`underscore hover:before:w-[70%] hover:before:bg-white before:transition-all before:duration-300  relative ${router.asPath ===item.link?"before:w-[70%]":"before:w-0"}  before:bg-velt-pink before:-bottom-1 before:absolute before:h-[2px] text-white font-semibold text-sm lg:text-base before:left-[15%] before:rounded-lg`}>{item.text}</span></Link>
           )
         })}
       </div>
