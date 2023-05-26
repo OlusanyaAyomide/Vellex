@@ -9,7 +9,7 @@ export default function Footer() {
     return <div className={className}>
       <h1 className='font-extrabold text-base mb-1 text-white'>Subcribe</h1>
       <div className='flex flex-wrap gap-y-1 md:flex-nowrap'>
-        <input type="text" placeholder='Enter Email Address'  className='w-full  py-3 focus:border-b-velt-pink focus:border-b bg-velt-offwhite px-2 md: rounded-md outline-none' />
+        <input type="text" placeholder='Enter Email Address'  className='w-full  py-3 focus:border-b-velt-pink focus:border-b bg-velt-offwhite px-2 md: rounded-md outline-none text-velt-black' />
         <button className='px-6 py-1 mt-1 lg:mt-0 hover:bg-velt-blue/70 transition-all duration-300 text-white bg-velt-pink rounded-md md:ml-2'>Subscribe</button>
       </div>
       <p className='mt-1 text-[#919191]'>Join our news letter today</p>
@@ -34,7 +34,7 @@ export default function Footer() {
                   {item.links.map((items,keys)=>{
                     return(
                       <Link href={items.link} key={keys}>
-                        <span className={`${key===0?"hover:text-velt-pink":"hover:text-green-950"} block my-3`}>{items.name}</span>
+                        <span className={`${key===0?"hover:text-velt-pink":"hover:text-green-950"} block overflow-ellipsis break-words my-3`}>{items.name}</span>
                       </Link>
                     )
                   })}

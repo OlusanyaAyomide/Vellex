@@ -14,9 +14,9 @@ export default function Header() {
   const router = useRouter()
   console.log(router.asPath)
   return (
-    <div className=' z-40 top-0 w-full cont justify-between py-2  flex items-center'>
+    <div className=' z-40 top-0 w-full cont justify-between   flex items-center'>
       <div>
-        <div className='w-[110px] h-[36.9px] md:w-[120px] lg:w-[133px] md:h-[43px]'>
+        <div className='w-[120px] h-[52.9px] md:w-[140px] lg:w-[133px] md:h-[63px]'>
           <VelImage src={ResourceExporter.Logo}/>
         </div>
       </div>

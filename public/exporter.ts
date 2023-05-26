@@ -1,5 +1,5 @@
 import HeroBg from "./HeroBg.jpg";
-import Logo from "./Logo2.png";
+import Logo from "./WhiteMark.png";
 import LogoB from "./LogoB.jpg";
 import bank from "./bank.png";
 import contract from "./contract.png";

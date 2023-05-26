@@ -41,7 +41,7 @@ export default function SideBar() {
   }
   return (
     <motion.div exit="initial" initial="initial" variants={variants} animate="animate" className="bg-velt-dark fixed inset-0 w-full  h-screen lg:hidden flex items-center justify-center">
-         <div className='fixed left-3 top-4 w-[110px] h-[36.9px] md:w-[133px] md:h-[43px]'>
+         <div className='fixed left-3 top-4 w-[140px] h-[52.9px] md:w-[133px] md:h-[43px]'>
         {<VelImage src={ResourceExporter.Logo}/>}
       </div>
       <div className='mt-6'>
